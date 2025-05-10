@@ -451,7 +451,9 @@ section:first-of-type {
   gap: 2.5rem;
 }
 .navigatePages > .cardContainer > .card {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 1rem;
   padding: 4rem;
   border: 2px solid black;
@@ -467,8 +469,9 @@ section:first-of-type {
 }
 .navigatePages > .cardContainer > .card > .breakLine {
   display: flex;
+  justify-content: space-between;
   position: relative;
-  width: fit-content;
+  width: 100%;
 }
 .navigatePages > .cardContainer > .card > .breakLine > .circleLeft {
   position: absolute;
