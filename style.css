@@ -36,7 +36,7 @@ nav {
   justify-content: center;
   background-color: var(--primary-bg-color);
   gap: 1rem;
-  /* overflow: visible; */
+  cursor: pointer;
 }
 
 .topBanner > .patternLeft {
@@ -112,6 +112,7 @@ nav {
   align-items: center;
   gap: 10px;
   border-right: 2px solid black;
+  cursor: pointer;
 }
 .logo {
   height: 40px;
@@ -128,6 +129,7 @@ nav {
   background-color: transparent;
   margin: 0;
   border: 1px solid black;
+  cursor: pointer;
 }
 .pageTabContainer > button:first-child {
   border-left: 2px solid black;
@@ -276,6 +278,7 @@ section:first-of-type {
   border: 2px solid black;
   padding: 0.5rem 1rem;
   display: inline-block;
+  cursor: pointer;
 }
 .ourBenefits > .textContainer > .heading,
 .ourTestimonial > .textContainer > .heading,
@@ -346,6 +349,7 @@ section:first-of-type {
   justify-items: center;
   min-width: 21rem;
   min-height: 23rem;
+  cursor: pointer;
 }
 
 .ourTestimonial > .cardContainer > .card > .profile {
@@ -381,6 +385,7 @@ section:first-of-type {
   background-color: white;
   border: 2px solid black;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .ourTestimonial > .cardContainer > .navigate > svg {
@@ -428,6 +433,7 @@ section:first-of-type {
   border-radius: 6px;
   margin-left: auto;
   background-color: var(--main-bg-color);
+  cursor: pointer;
 }
 
 .questions > .cardContainer > .column > .openedCard {
@@ -437,6 +443,7 @@ section:first-of-type {
 
 .questions > .cardContainer > .column > .openedCard .detailBtn {
   align-self: flex-start;
+  cursor: pointer;
 }
 
 .questions > .cardContainer > .column > .openedCard .title {
@@ -460,6 +467,7 @@ section:first-of-type {
   border-radius: 12px;
   box-shadow: 5px 5px black;
   background-color: white;
+  cursor: pointer;
 }
 
 .navigatePages > .cardContainer > .card > .title {
@@ -498,6 +506,7 @@ section:first-of-type {
   width: 100%;
   font-size: 20px;
   margin-top: 4rem;
+  cursor: pointer;
 }
 .navigatePages > .cardContainer > .card > .moreBtn > span {
   font-size: 20px;
@@ -544,6 +553,7 @@ footer .logoWapper {
   background-color: white;
   border: none;
   padding: 0;
+  cursor: pointer;
 }
 footer .logoText {
   font-size: 1.2rem;
@@ -569,6 +579,10 @@ footer .contactList > .contactItem > .icon {
   border: 2px solid black;
   border-radius: 6px;
   background-color: var(--main-bg-color);
+  cursor: pointer;
+}
+footer .contactList > .contactItem > .link {
+  cursor: pointer;
 }
 
 footer > .information > .pageList {
@@ -582,10 +596,12 @@ footer .pageList > .pageItem {
 footer .pageList > .pageItem > .pageName {
   font-weight: 600;
   margin-bottom: 2.5rem;
+  cursor: pointer;
 }
 footer .pageList > .pageItem > .pageSubTab {
   min-width: fit-content;
   text-wrap: nowrap;
+  cursor: pointer;
 }
 
 footer .credits {
@@ -611,6 +627,7 @@ footer .credits > .policy > .item {
   border-right: 2px solid black;
   list-style: none;
   padding: 0 1.5rem;
+  cursor: pointer;
 }
 
 footer .credits > .social > .icon {
@@ -622,6 +639,7 @@ footer .credits > .social > .icon {
   background-color: var(--primary-bg-color);
   border: 2px solid black;
   border-radius: 8px;
+  cursor: pointer;
 }
 footer .credits > .social > .icon > svg {
   width: 24px;
