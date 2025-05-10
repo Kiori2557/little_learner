@@ -466,16 +466,19 @@ section:first-of-type {
   margin: 0;
 }
 .navigatePages > .cardContainer > .card > .breakLine {
+  display: flex;
   position: relative;
   width: fit-content;
 }
 .navigatePages > .cardContainer > .card > .breakLine > .circleLeft {
   position: absolute;
   left: 0;
+  bottom: -5px;
 }
 .navigatePages > .cardContainer > .card > .breakLine > .circleRight {
   position: absolute;
   right: 0;
+  bottom: -5px;
 }
 
 .navigatePages > .cardContainer > .card > .paragraph {
